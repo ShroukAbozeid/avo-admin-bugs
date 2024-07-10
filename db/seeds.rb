@@ -7,3 +7,14 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Team.find_or_create_by(name: 'Team 1')
+Team.find_or_create_by(name: 'Team 2')
+
+
+event1 = Event.find_or_create_by(name: 'Event 1')
+
+Game.find_or_create_by(name: 'Game 1', event: event1)
+Game.find_or_create_by(name: 'Game 2', event: event1)
+
+
