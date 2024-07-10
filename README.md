@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo is created using avo template `bin/rails app:template LOCATION='https://avohq.io/app-template'`
 
-Things you may want to cover:
+it was created with the purpose of reproducing these two issues: 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. https://github.com/avo-hq/avo/issues/2945
+2. https://github.com/avo-hq/avo/issues/2961
